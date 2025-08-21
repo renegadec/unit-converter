@@ -1,0 +1,12 @@
+{
+  "name": "unit-converter",
+  "version": "1.0.0",
+  "description": "A metric/imperial unit converter",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  }
+}
