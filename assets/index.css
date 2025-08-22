@@ -27,14 +27,24 @@ body {
     font-weight: 800;
 }
 
-.header p {
+.header input {
+    width: 117px;
+    height: 83px;
+    text-align: center;
     font-size: 58px;
     font-weight: bolder;
+    background-color: transparent;
     color: #FFFFFF;
     border: 2px solid #B295FF;
     border-radius: 5px;
     padding: 8px 16px;
-    margin: 8px 0 12px;
+    margin: 8px 0 20px;
+}
+
+.header input::-webkit-outer-spin-button,
+.header input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 button {
@@ -64,10 +74,20 @@ button {
     border-radius: 3px;
 }
 
-.conversion-el p {
+.conversion-el h5 {
     font-size: 20px;
     line-height: 20px;
     color: #5A537B;
     font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.conversion p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #353535;
+    margin: 0;
+
 }
 
